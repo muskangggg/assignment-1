@@ -5,6 +5,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.margin{
+    margin: 20px 60px;
+}
 .text-center{
     text-align: center;
 }
@@ -102,6 +105,29 @@ font-weight: 600;
     height: 500px;
     margin-top: 48px ;
     margin-bottom: 48px;
-    border-width: 25px;
+    border-width: 25px;  
+}
+/* target styles */
+.target-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+.target-1{
+    padding: 30px;
+    border-radius: 16px;
+    padding: 50px;
+}
+.target-1-color{
+    background-color: #f1dbd6;
+}
+.target-2-color{
+    background-color: #d6e0f5;
+}
+.target-3-color{
+    background-color: #e9e4cc;
+};
+.target-description{
     
 }
