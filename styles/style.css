@@ -5,7 +5,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-.margin{
+.margin , footer{
     margin: 20px 60px;
 }
 .text-center{
@@ -130,4 +130,41 @@ font-weight: 600;
 };
 .target-description{
     
+}
+/* support styles */
+.input{
+    width: 548px;
+    height: 60px;
+    border-radius: 8px;  
+}
+.button-submit{
+   width: 120px; 
+   height: 60px;
+   border-radius: 8px;
+}
+.support-description{
+    margin-bottom: 34px;
+}
+.support-heading{
+    margin-top: 64px;
+    padding-top: 34px;
+}
+.supportt{
+    margin-top: 34px;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+/* footer styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    padding: 24px;
+    background-color: #e2e7f1;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
