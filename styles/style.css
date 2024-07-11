@@ -71,6 +71,7 @@ font-weight: 600;
 .about-heading{
     font-size: 32px;
     font-weight: bolder;
+    
 }
 .about-para{
     font-size: 16px;
@@ -79,4 +80,28 @@ font-weight: 600;
 }
 .learn-more{
     padding: 12px 20px;
+}
+/* inspiration styles */
+.inspiration{
+    text-align: center;
+}
+.inspiration-heading{
+    font-size: 32px;
+    font-weight: bolder;
+    height: 37px;
+}
+.inspiration-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 370px;
+    height: 52px;
+}
+.utube{
+    border-radius: 16px;
+    width: 900px;
+    height: 500px;
+    margin-top: 48px ;
+    margin-bottom: 48px;
+    border-width: 25px;
+    
 }
